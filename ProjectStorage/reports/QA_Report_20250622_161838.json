@@ -1,0 +1,18 @@
+{
+  "extracted_text": "Title: SauceDemo Functional Requirements\nVersion: 1.0\nAuthor: QA Team\nMain Features\n\u2022 Login screen with username/password fields\n\u2022 Product catalog with names, prices, and add-to-cart options\n\u2022 Shopping cart view for added products\n\u2022 Checkout page with customer info form\n\u2022 Order confirmation screen after payment\nUser Actions\n\u2022 Login with valid or invalid credentials\n\u2022 Add multiple products to the cart\n\u2022 Remove items from the cart\n\u2022 Fill out checkout information\n\u2022 Submit and complete the order\nEdge Cases\n\u2022 Empty cart checkout\n\u2022 Invalid ZIP code in checkout form\n\u2022 Network failure during order submission\nCredentials for Testing\n\u2022 Username: standard_user\n\u2022 Password: secret_sauce",
+  "summary": "Here are the key points and relevant details from the text:\n\n**Main Features:**\n\n* Login screen with username/password fields\n* Product catalog with names, prices, and add-to-cart options\n* Shopping cart view for added products\n* Checkout page with customer info form\n* Order confirmation screen after payment\n\n**User Actions:**\n\n* Login with valid or invalid credentials\n* Add multiple products to the cart\n* Remove items from the cart\n* Fill out checkout information\n* Submit and complete the order\n\n**Edge Cases:**\n\n* Empty cart checkout\n* Invalid ZIP code in checkout form\n* Network failure during order submission\n\n**Credentials for Testing:**\n\n* Username: standard_user\n* Password: secret_sauce",
+  "test_cases": [
+    "- Search for products by name",
+    "- Filter products by category",
+    "- Verify product information (name, price, images)",
+    "- Add multiple products to the cart",
+    "- Verify added products are displayed correctly",
+    "- Verify total price and quantity of products",
+    "- Fill out customer information form with valid data",
+    "- Fill out customer information form with invalid data (e.g., missing fields, incorrect format)",
+    "- Verify that required fields are highlighted as errors",
+    "- Verify order details (date, total, products)",
+    "- Verify order status (e.g., \"Order placed successfully\")"
+  ],
+  "timestamp": "20250622_161838"
+}

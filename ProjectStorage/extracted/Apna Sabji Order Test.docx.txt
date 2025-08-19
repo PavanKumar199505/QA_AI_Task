@@ -1,0 +1,71 @@
+Title: ApnaSabji Order Flow Test Case Document Version: 1.0 Author: QA Team Date: June 30, 2025
+1. Overview
+This document outlines the functional test case for validating an end-to-end user flow on the ApnaSabji web application. The test case involves logging in, selecting a vegetable (“Potato”), adding it to the cart, and completing the order.
+2. Test Case Details
+Test Case ID: TC_E2E_001
+Title: Verify complete order placement flow for a vegetable (Potato)
+Objective: Validate the complete user journey from login to placing an order using valid data.
+Preconditions:
+User has internet access and a browser
+User has valid login credentials
+Test Data:
+Username: pavan12345
+Password: 123456789$Test&
+Product: Potato
+Quantity: 10
+City: Noida
+ZIP Code: 201301
+Phone: 9876543210
+Email: test@gmail.com
+Test Steps:
+Expected Result: User should be able to complete the order for 10 Potatoes successfully with confirmation displayed.
+3. Negative Test Considerations
+Leave required fields empty → Validation messages shown
+Enter invalid email or phone → Error messages shown
+Try placing order with zero quantity → Cart prevents progression
+4. Acceptance Criteria
+All steps are executed without error.
+Validation messages appear for incorrect inputs.
+Order placed and confirmation received.
+Reference: https://apnasabji.com
+Step No.
+Action
+Expected Result
+1
+Open https://apnasabji.com
+Home page loads successfully
+2
+Click on Login at the top left
+Login modal appears
+3
+Enter valid credentials and log in
+User is redirected to the home page
+4
+Click on the Veg tab in the navigation menu
+List of vegetables is displayed
+5
+Select Potato, enter quantity 10, click Add to Cart
+Potato is added to cart; cart icon updates
+6
+Click View Cart
+Cart shows correct product and quantity
+7
+Click Proceed to Checkout
+Billing & Shipping page is displayed
+8
+Fill all required billing & shipping fields:
+Fields accept valid input
+- First Name
+- Last Name
+- Delivery Address
+- Landmark
+- City
+- ZIP Code
+- Phone Number
+- Email Address
+- Delivery Slot
+9
+(Optional) Add order notes
+Notes field accepts input
+10
+Click Place Order

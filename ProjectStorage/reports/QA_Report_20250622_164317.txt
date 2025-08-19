@@ -1,0 +1,63 @@
+Automated QA Assistant Report
+Generated: 20250622_164317
+
+Extracted Text:
+Title, Sauce Demo Functional Requirements Version, 1.0 Author, QA Team, Main Features Login Screen with Username, Password Fields, Product Catalog with Names, Prices, and Add to Cart Options. Shopping Cart View for Added Products, Check Out Page with Customer Info Form, Order Confirmation Screen after Payment. User Actions Login with Valid or Invalid Credentials, Add Multiple Products to the Cart, Remove Items from the Cart, Fill Out Checkout Information, Submit and Complete the Order, Warning Edge Cases Empty Cart Checkout, Invalid Zip Code in Checkout Form, Network Failure during Order Submission, Credentials for Testing Username, Standard underscore User, Password, Secret underscore Sauce.
+
+Summary:
+Here are the key points and relevant details from the text:
+
+**Main Features:**
+
+* Login screen with username/password fields
+* Product catalog with names, prices, and add-to-cart options
+* Shopping cart view for added products
+* Checkout page with customer info form
+* Order confirmation screen after payment
+
+**User Actions:**
+
+* Login with valid or invalid credentials
+* Add multiple products to the cart
+* Remove items from the cart
+* Fill out checkout information
+* Submit and complete the order
+
+**Edge Cases:**
+
+* Empty cart checkout
+* Invalid ZIP code in checkout form
+* Network failure during order submission
+
+**Testing Credentials:**
+
+* Username: standard_user
+* Password: secret_sauce
+
+Suggested Test Cases:
+1. Login with valid credentials
+- Login with invalid username
+- Login with invalid password
+- Login with empty username
+- Login with empty password
+- Add product to cart with valid quantity
+- Add product to cart with invalid quantity
+- Add multiple products to cart with different quantities
+- Remove product from cart with valid quantity
+- Remove product from cart with invalid quantity
+- Remove all products from cart
+- Fill out checkout information with valid data
+- Fill out checkout information with invalid data
+- Fill out checkout information with missing data
+- Submit order with valid payment information
+- Submit order with invalid payment information
+- Submit order with missing payment information
+- Empty cart checkout
+- Invalid ZIP code in checkout form
+- Network failure during order submission
+- Checkout with multiple payment methods
+- Checkout with no payment method selected
+- Order confirmation screen after successful payment
+- Order confirmation screen after failed payment
+- Cancel order during checkout
+- Cancel order after payment

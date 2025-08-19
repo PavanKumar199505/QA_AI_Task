@@ -1,0 +1,17 @@
+Automated QA Assistant Report
+Generated: 20250622_185726
+
+Extracted Text:
+SauceDemo Functional Requirements
+Title: SauceDemo Functional Requirements
+Version: 1.1
+Author: QA Team
+Date: June 22, 2025
+1. Overview
+This document specifies the functional requirements for the SauceDemo web application, a demo e-commerce platform designed for testing automation tools (e.g., Selenium, Playwright). The application simulates an online shopping experience with user authentication, product browsing, cart management, and checkout processes.
+2. Main Features
+Login Screen: A secure login page with fields for username and password, supporting multiple user types for testing scenarios.
+Product Catalog: A browsable inventory displaying product names, descriptions, prices, images, and “Add to Cart” buttons, with sorting options by name (A-Z, Z-A) and price (low to high, high to low).
+Shopping Cart View: A cart page listing added products with options to remove items, continue shopping, or proceed to checkout, including a badge showing item count.
+Checkout Process: A multi-step ...
+

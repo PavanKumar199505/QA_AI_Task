@@ -1,0 +1,69 @@
+Automated QA Assistant Report
+Generated: 20250622_150133
+
+Extracted Text:
+Title: SauceDemo Functional Requirements
+Version: 1.0
+Author: QA Team
+🔧 Main Features
+Login screen with username/password fields
+Product catalog with names, prices, and add-to-cart options
+Shopping cart view for added products
+Checkout page with customer info form
+Order confirmation screen after payment
+🧑‍💼 User Actions
+Login with valid or invalid credentials
+Add multiple products to the cart
+Remove items from the cart
+Fill out checkout information
+Submit and complete the order
+⚠️ Edge Cases
+Empty cart checkout
+Invalid ZIP code in checkout form
+Network failure during order submission
+🧪 Credentials for Testing
+Username: standard_user
+Password: secret_sauce
+
+Summary:
+Here are the key points and relevant details from the text:
+
+**Main Features:**
+
+* Login screen with username/password fields
+* Product catalog with names, prices, and add-to-cart options
+* Shopping cart view for added products
+* Checkout page with customer info form
+* Order confirmation screen after payment
+
+**User Actions:**
+
+* Login with valid or invalid credentials
+* Add multiple products to the cart
+* Remove items from the cart
+* Fill out checkout information
+* Submit and complete the order
+
+**Edge Cases:**
+
+* Empty cart checkout
+* Invalid ZIP code in checkout form
+* Network failure during order submission
+
+**Credentials for Testing:**
+
+* Username: standard_user
+* Password: secret_sauce
+
+Suggested Test Cases:
+1. - Search for products by name
+2. - Filter products by category
+3. - Verify product information (name, price, images)
+4. - Add multiple products to the cart
+5. - Verify added products are displayed correctly
+6. - Verify total price and quantity of products
+7. - Fill out customer information form with valid data
+8. - Fill out customer information form with invalid data (e.g., missing fields, incorrect format)
+9. - Verify that required fields are highlighted as errors
+10. - Verify order details (date, total, products)
+11. - Verify order status (e.g., "Order placed successfully")

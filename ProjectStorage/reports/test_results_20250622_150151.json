@@ -1,0 +1,5 @@
+{
+  "stdout": "",
+  "stderr": "  File \"C:\\Users\\Nitesh.YTP-DESKTOP\\Pictures\\AutomatedQA\\automation\\test_sauce_demo.py\", line 45\n    screenshot_path = screenshot_dir / f\"screenshot_{datetime.now().strftime('%Y%m%d_%H%M%S')\n                                                    ^\nSyntaxError: '{' was never closed\n",
+  "returncode": 1
+}

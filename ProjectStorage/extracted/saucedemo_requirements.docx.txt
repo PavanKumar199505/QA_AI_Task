@@ -1,0 +1,59 @@
+SauceDemo Functional Requirements
+Title: SauceDemo Functional Requirements
+Version: 1.1
+Author: QA Team
+Date: June 22, 2025
+1. Overview
+This document specifies the functional requirements for the SauceDemo web application, a demo e-commerce platform designed for testing automation tools (e.g., Selenium, Playwright). The application simulates an online shopping experience with user authentication, product browsing, cart management, and checkout processes.
+2. Main Features
+Login Screen: A secure login page with fields for username and password, supporting multiple user types for testing scenarios.
+Product Catalog: A browsable inventory displaying product names, descriptions, prices, images, and “Add to Cart” buttons, with sorting options by name (A-Z, Z-A) and price (low to high, high to low).
+Shopping Cart View: A cart page listing added products with options to remove items, continue shopping, or proceed to checkout, including a badge showing item count.
+Checkout Process: A multi-step checkout with:
+Customer information form (first name, last name, postal code).
+Order overview summarizing items, prices, and total (with tax).
+Confirmation screen displaying a success message.
+Navigation Menu: A sidebar menu with links for “All Items,” “About” (external Sauce Labs page), “Logout,” and “Reset App State.”
+Social Media Links: Footer links to Twitter, Facebook, and LinkedIn for external engagement.
+3. User Actions
+Login: Users can log in with valid or invalid credentials, with distinct behaviors for different user types (standard, locked-out, problem, performance glitch).
+Browse Products: Users can view the product catalog, sort items by name or price, and access product details.
+Manage Cart: Users can add multiple products to the cart, remove items, and view the cart’s contents.
+Checkout: Users can fill out the checkout information form, review the order summary, and submit to complete the order.
+Navigate: Users can access the sidebar menu to return to the inventory, visit the About page, log out, or reset the application state.
+Interact with Social Links: Users can click footer links to visit social media pages.
+4. Edge Cases
+Invalid Credentials: Attempting login with incorrect username/password displays an error message (e.g., “Username and password do not match”).
+Locked-Out User: Login attempt with locked_out_user displays a specific error (e.g., “Sorry, this user has been locked out”).
+Problem User: Login with problem_user triggers UI issues (e.g., broken images or incorrect product data) for testing.
+Performance Glitch User: Login with performance_glitch_user simulates delays (5–10 seconds) for performance testing.
+Empty Cart Checkout: Attempting checkout with an empty cart displays an appropriate error or prevents progression.
+Invalid ZIP Code: Entering an invalid postal code (e.g., empty or non-numeric) in the checkout form triggers a validation error.
+Network Failure: Simulating network issues during order submission displays a retry option or error message.
+5. Credentials for Testing
+The following credentials are provided for testing different scenarios:
+Standard User:
+Username: standard_user
+Password: secret_sauce
+Behavior: Full access to all features.
+Locked-Out User:
+Username: locked_out_user
+Password: secret_sauce
+Behavior: Denied access with a locked-out error.
+Problem User:
+Username: problem_user
+Password: secret_sauce
+Behavior: Experiences UI or functional issues (e.g., broken images).
+Performance Glitch User:
+Username: performance_glitch_user
+Password: secret_sauce
+Behavior: Simulates slow response times.
+6. Acceptance Criteria
+All main features (login, product catalog, cart, checkout, navigation, social links) are functional and accessible with standard_user.
+User actions are consistently executable across supported browsers (Chrome, Firefox, Edge).
+Edge cases are handled with clear, actionable error messages or expected behaviors.
+Test credentials enable distinct testing scenarios as described.
+UI elements include unique identifiers (IDs/classes) for automation testing reliability.
+7. References
+SauceDemo website: https://www.saucedemo.com/
+Sauce Labs documentation: https://saucelabs.com/

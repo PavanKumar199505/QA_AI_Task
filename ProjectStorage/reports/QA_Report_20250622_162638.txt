@@ -1,0 +1,56 @@
+Automated QA Assistant Report
+Generated: 20250622_162638
+
+Extracted Text:
+Title: SauceDemo Functional Requirements
+Version: 1.0
+Author: QA Team
+🔧 Main Features
+Login screen with username/password fields
+Product catalog with names, prices, and add-to-cart options
+Shopping cart view for added products
+Checkout page with customer info form
+Order confirmation screen after payment
+🧑‍💼 User Actions
+Login with valid or invalid credentials
+Add multiple products to the cart
+Remove items from the cart
+Fill out checkout information
+Submit and complete the order
+⚠️ Edge Cases
+Empty cart checkout
+Invalid ZIP code in checkout form
+Network failure during order submission
+🧪 Credentials for Testing
+Username: standard_user
+Password: secret_sauce
+
+Summary:
+Here are the key points and relevant details summarized from the text:
+
+**Main Features:**
+
+1. Login screen with username/password fields
+2. Product catalog with names, prices, and add-to-cart options
+3. Shopping cart view for added products
+4. Checkout page with customer info form
+5. Order confirmation screen after payment
+
+**User Actions:**
+
+1. Login with valid or invalid credentials
+2. Add multiple products to the cart
+3. Remove items from the cart
+4. Fill out checkout information
+5. Submit and complete the order
+
+**Edge Cases:**
+
+1. Empty cart checkout
+2. Invalid ZIP code in checkout form
+3. Network failure during order submission
+
+**Credentials for Testing:**
+
+1.
+
